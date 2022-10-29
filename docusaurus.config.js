@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Docus',
-  tagline: 'Dinosaurs are cool',
+  title: 'My Docus || 網站',
+  tagline: '測試用網站',
   url: 'https://enchanting-smakager-6fd7df.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'My Docus || 網站',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -67,9 +67,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '練習',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '網誌', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
